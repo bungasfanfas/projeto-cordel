@@ -3,3 +3,24 @@
 @import url('One:wght@400;https://fonts.googleapis.com/css2?family=Passion+700;900&display=swap');
 
 @import url('https://fonts.googleapis.com/css2?family=Sriracha&display=swap');
+
+header, footer {
+    background-color:black ;
+}
+
+header > p, h1, footer p {
+    color: white; 
+    text-align: center;
+}
+
+header > p > a, footer > p > a {
+    color: white;
+    text-decoration: none;
+    font-weight: bolder;
+}
+
+header > p > a:hover, footer > p > a:hover {
+    color: white;
+    text-decoration: underline;
+    font-weight: bolder;
+}
